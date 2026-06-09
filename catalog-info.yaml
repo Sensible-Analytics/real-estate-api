@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: real-estate-api
+  description: "Property data API for developers - Australian market data, valuations, suburb analytics"
+  annotations:
+    github.com/project-slug: Sensible-Analytics/real-estate-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sensible-analytics/engineering
